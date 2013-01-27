@@ -19,3 +19,6 @@ So, Other Events doesn't work correctly.
 if you want to use 'new' event type,
 you must initialize as any value when call observe.
 it extends some properties for update checking.
+
+
+I checked only Chrome.
