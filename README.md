@@ -11,7 +11,7 @@ So, Other Events doesn't work correctly.
 
 ```javascript
 var f = function(e){
-  console.log(e.type);
+  console.log(e[0].type);
 };
 
 var obj = Object.observe({x: 1}, f);
